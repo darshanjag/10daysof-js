@@ -1,16 +1,11 @@
-function RectangleES5(a, b) {
-    this.length = a;
-    this.width = b;
-    this.perimeter = 2 * (a + b);
-    this.area = a * b;
-}
+function Rectangle(a, b) {
+    var Rectangle= {
+        length: a,
+        width: b,
+        perimeter: 2 * (a + b),
+        area: a*b
+    
 
-//ES6 syntax
-class RectangleES6 {
-    constructor(a, b) {
-        this.length = a;
-        this.width = b;
-        this.perimeter = 2 * (a + b);
-        this.area = a * b;
-    };
-}
+    }
+    return Rectangle
+    
