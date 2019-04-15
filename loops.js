@@ -11,8 +11,8 @@ function vowelsAndConsonants(s) {
         if
         ((s[j] != "a") && (s[j] != "e") && (s[j] != "i") && (s[j] != "o") && (s[j] != "u")) { 
             console.log(s[j])
-        }
-        
+          }
+         
     }
 }
 vowelsAndConsonants();
