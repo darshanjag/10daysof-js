@@ -5,6 +5,6 @@ function Polygon(arg) {
         for (let i = 0; i < this.arg.length; i++) {
             perimeter += this.arg[i];
         }
-        return perimeter;
+         return perimeter;
     }
 }
